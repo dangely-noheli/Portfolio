@@ -1,23 +1,27 @@
 {
-  "version": "1.0.0",
   "name": "portfolio",
+  "version": "1.0.0",
   "description": "sdfsdf",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/dangely-noheli/Portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/dangely-noheli/Portfolio/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dangely-noheli/Portfolio.git"
   },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dangely-noheli/Portfolio/issues"
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite ./public",
+    "dev": "vite serve ./public",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/dangely-noheli/Portfolio#readme",
   "devDependencies": {
     "prettier": "^2.8.1",
-    "prettier-plugin-packagejson": "^2.3.0"
+    "prettier-plugin-packagejson": "^2.3.0",
+    "vite": "^4.0.0"
   }
 }
