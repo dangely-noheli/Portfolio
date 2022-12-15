@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "portfolio",
+  "description": "sdfsdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangely-noheli/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangely-noheli/Portfolio/issues"
+  },
+  "homepage": "https://github.com/dangely-noheli/Portfolio#readme",
+  "devDependencies": {
+    "prettier": "^2.8.1",
+    "prettier-plugin-packagejson": "^2.3.0"
+  }
+}
